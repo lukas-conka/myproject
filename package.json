@@ -5,9 +5,9 @@
   },
   "name": "node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --inspect index.js"
+    "dev": "nodemon --inspect app.js"
   }
 }

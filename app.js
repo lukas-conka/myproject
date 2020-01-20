@@ -60,7 +60,7 @@ Kitten.find((err, kittens) => {
     console.log(kittens)
 })
 
-function searchCat() {
+async function searchCat() {
     Kitten.find({name: 'Lucas'})
 .then((doc) => {
     console.log('Result of Search Name: ', doc)
