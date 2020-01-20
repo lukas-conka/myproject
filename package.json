@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --inspect index.js"
+  }
+}
